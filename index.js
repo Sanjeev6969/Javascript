@@ -1,10 +1,10 @@
-let age=prompt('enter your age',18);
-
-if(age>18){
-alert('You are Major')
-}else if(age<18){
-    alert('You are Minor')
-}else 
-{
-    alert('correct age')
+year=prompt('enter your year of birth')
+function ageCalculator(year){
+    let x=2023;
+    if(year>0){
+        y=x-year
+        alert(`your age is ${y}`)
+    }
 }
+
+ageCalculator(year)
